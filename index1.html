@@ -3,27 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Hopfen</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="box-header">
-            <h1>Hopfen</h1>
-            <div class="header-content">
-                <a href="#">Menu</a>
-                <a href="#">Contacto</a>
-                <a href="#">Sobre Nosotros</a>
-            </div>
-        </div>
+    <header class="header">
+        <div class="header-logo">
+            <a href="http://127.0.0.1:3000/index1.html">
+                <img src="css/imagenes/logo.png" alt="Logo de Hopfen">
+                <h1>HopfenCraftBar</h1>
+            </a>
+        </div> 
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
     </header>
-<div class="images">
-    <img src="https://lh3.googleusercontent.com/p/AF1QipObgi52nhVUm41hFeGW-ukvOGETZegv1KuojVPr=s680-w680-h510"><br>
-    <img src="https://lh3.googleusercontent.com/p/AF1QipPCTTWxI9aVbqApHhhtHplJFVtSqeG7IWwPzfyx=s680-w680-h510">
-    <img src="https://lh5.googleusercontent.com/p/AF1QipMQEpZNFHQsOHy-gLhUlkm18zd5upLc6ilUiwDH=w136-h228-n-k-no-nu">
-    
-</div>
-    
+    <main class="main">
+        <article>
+            <section class="galleryslide"> <!--Galeria de 3 imagenes en movimiento-->
+                <h2 class="galleryslide-title">Hopfen Bar & Coffee</h2>
+                <div class="galleryslide-images">
+                    <img id="slide-1" src="css\imagenes\burga1.png" alt="burga1">
+                    <img id="slide-2" src="css\imagenes\burga2.png" alt="burga2">
+                    <img id="slide-3" src="css\imagenes\burga3.png" alt="burga3">
+                </div>
+                <div class="galleryslide-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                </div>
+            </section>
+        </article>
+        <article>
+            <section class="gallerymenu"> <!--Galeria de 3 imagenes para describir menu-->
+                <img src="css\imagenes\burga1.png" alt="burga1">
+                <img src="css\imagenes\burga2.png" alt="burga2">
+                <img src="css\imagenes\burga3.png" alt="burga3">
+                <div>
+                    <!--Descripciones para las imagenes-->
+                </div>
+            </section>
+        </article>
+        <section>
+            <!--Boton hacia el html del menu-->
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="contact">
+            <h2>Contacto</h2>
+            <p>Teléfono: +54 299 657-9451</p>
+            <p>Email: maildelbar.co</p>
+            <p>Dirección: Antártida Argentina 290, Neuquén, Argentina</p>
+        </div>
+        <div class="hours">
+            <h2>Horarios de Apertura</h2>
+            <ul>
+                <li>☀️ 9:00 am/ 15:00 pm</li>
+                <li>🌙 19:00 pm/ 01:00 am</li>
+            </ul>
+        </div>
+        <div class="social">
+            <h2>Seguinos!</h2>
+            <a href="https://www.facebook.com/profile.php?id=114193443345026&paipv=0&eav=AfYackQRmcn9jYksoIB_nwUpaVlZfqirZOH-mOeExTj7VfnQJMDVte_Q3k0QSsfwWxQ&_rdr">Facebook</a> | 
+            <a href="https://www.instagram.com/hopfenbar/">Instagram</a> | 
+        </div>
+       
+        <p>&copy; 2024 HopfenCraftBar. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
