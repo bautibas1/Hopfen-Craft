@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../formcontact/imagenes/istockphoto-624697496-612x612.jpg");
+    background-size: cover ;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.884), #000000);
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-logo h1 {
+    font-size: 25px;
+    color: white;
+    margin: 5px 0;
+}
+
+.header-logo a {
+    text-decoration: none;
+}
+.header-logo h1:hover {
+    color: rgb(221, 175, 47);
+}
+.header-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-nav a:hover {
+    color: rgb(221, 175, 47);
+}
+
+/* Header */
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+}
+main ul li {
+    list-style: none;
+}
+main h1 {
+    font-size: 50px;
+}
+
+main h2 {
+    font-size: 40px;
+}
+main p {
+    font-size: 30px ;
+}
+
+
+/* Estilos para las animaciones desplegables */
+.details {
+    display: none;
+    transition: max-height 0.3s ease-in-out;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+h2:hover {
+    color: rgb(221, 175, 47);
+}
+
+details {
+    margin-bottom: 20px;
+}
+
+details[open] .details {
+    display: block;
+}
+
+details summary {
+    list-style: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.details {
+    max-height: 0;
+    overflow: hidden;
+}
+
+details[open] .details {
+    max-height: 500px;
+    display: block;
+}
+/* Estilos para las animaciones desplegables */
