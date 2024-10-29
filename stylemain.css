@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-main {
-    background-color: #ffff;
-    margin-top: 70px;
-=======
 body {
->>>>>>> 57fb322dce812b32567a5c3d67ed083cca1a89c1
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,7 +14,6 @@ body {
     position: relative;
     top: 0;
     width: 100%;
-    height: 70px;
     z-index: 1000;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.884), #000000);
 }
@@ -71,18 +64,14 @@ body {
     color: lightgray;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 57fb322dce812b32567a5c3d67ed083cca1a89c1
 /* Header */
 
 /* Footer */
 .footer {
     background-color: black;
     color: white;
-    padding: 1rem;
-    text-align: left;
+    padding: 10px;
+    text-align: center;
     width: 100%;
 }
 /* Footer */
@@ -91,8 +80,7 @@ body {
 .galleryslide {
     position: relative;
     width: 100%;
-    margin: 0 auto;
-    padding-top: 0%;
+    margin: 0 auto; 
 }
 .galleryslide-images {
     display: flex;
@@ -100,10 +88,8 @@ body {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    scroll-snap-align: start
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     border-radius: 0.5rem;
-    overflow: hidden;
 }
 .galleryslide-images img {
     flex: 1 0 100%;
@@ -125,26 +111,7 @@ body {
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    background-color: #333;
-}
-.galleryslide-nav a:hover{
-    background-color: #acacac;
-    opacity: 75%;
-}
-.galleryslide-title{
-    font-family: "Rubik", sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 4rem;
+    background-color: #000000;
 }
 /* Galeria de slides */
-<<<<<<< HEAD
-.
-=======
 
->>>>>>> 57fb322dce812b32567a5c3d67ed083cca1a89c1
