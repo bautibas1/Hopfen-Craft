@@ -1,0 +1,35 @@
+/* Formulario de Contacto */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-self: center;
+}
+
+form { 
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-align: center;
+    width: 500px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+h1 {
+   font-size: 40px;
+   color: rgba(29, 34, 100, 0.884);
+}
+
+label {
+    color: rgba(36, 40, 100, 0.788);
+    font-size: 20px;
+    
+}

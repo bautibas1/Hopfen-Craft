@@ -1,8 +1,6 @@
-.main {
-    background-color: #ffff;
-    margin: 0;
+body {
     padding: 0;
-    height: 100%;
+    margin: 0;
 }
 
 /* Header */
@@ -11,7 +9,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #333;
+    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -53,16 +51,11 @@
     color: lightgray;
 }
 
-
-body {
-    padding-top: 80px;
-}
-
 /* Header */
 
 /* Footer */
 .footer {
-    background-color: #333;
+    background-color: black;
     color: white;
     padding: 10px;
     text-align: left;
@@ -108,3 +101,4 @@ body {
     background-color: #000000;
 }
 /* Galeria de slides */
+
