@@ -39,7 +39,7 @@ body {
     text-decoration: none;
 }
 .header-logo h1:hover {
-    color: lightgray;
+    color: rgb(221, 175, 47);
 }
 .header-nav ul {
     list-style: none;
@@ -61,7 +61,7 @@ body {
 }
 
 .header-nav a:hover {
-    color: lightgray;
+    color: rgb(221, 175, 47);
 }
 
 /* Header */
