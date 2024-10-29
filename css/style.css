@@ -138,6 +138,7 @@ body {
     text-align: center;
     align-items: center;
     font-size: 4rem;
+    max-height: 100px;
 }
 
 /* Galeria de slides */

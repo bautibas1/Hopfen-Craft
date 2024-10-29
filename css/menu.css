@@ -77,9 +77,9 @@ body {
     padding: 10px;
     text-align: center;
     width: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-flex;
 }
+/* Footer */
+
 
 main {
     display: flex;
