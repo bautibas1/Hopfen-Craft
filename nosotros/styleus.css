@@ -102,4 +102,61 @@ main img {
     padding: 10px;
     text-align: center;
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-flex;
+}
+
+.contact {
+    display: grid;
+    
+}
+
+.contact h2 {
+    display: flex;
+    margin: auto;
+    padding: auto;
+}
+
+.contact p {
+    display: flex;
+    margin: auto;
+    padding: auto;
+}
+
+.hours {
+    display: grid;
+    margin: auto;
+    padding: auto;
+}
+
+.hours summary h2 {
+    display: grid;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+
+}
+
+.hours details summary {
+    display: flex;
+}
+
+.social {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.social h2 {
+    display: flex;
+    margin: auto;
+    padding: auto;
+}
+
+.social a {
+    display: inline-block;
+    text-align: center;
+    padding: auto;
+    margin: auto;
 }
