@@ -81,9 +81,8 @@ body {
     position: relative;
     width: 100%;
     margin: 0 auto;
-    padding-top: 0%;
     display: flex;
-}
+  }
 
 .galleryslide-images {
     display: flex;
@@ -128,17 +127,18 @@ body {
 }
 
 .galleryslide-title {
-    font-family: "Rubik", sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: "Rubik", sans-serif;
     color: white;
     padding: 10px;
-    text-align: center;
-    align-items: center;
+    padding-bottom: 300px;
     font-size: 4rem;
     max-height: 100px;
+    text-align: center;
+    z-index: 1;
 }
 
 /* Galeria de slides */
