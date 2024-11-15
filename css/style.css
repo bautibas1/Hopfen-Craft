@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -66,22 +67,18 @@ body {
 
 /* Header */
 
-/* Footer */
-.footer {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
+/* Main */
+main{
+    height: 500vh;
 }
-/* Footer */
-
 /* Galeria de slides */
 .galleryslide {
     position: relative;
     width: 100%;
     margin: 0 auto;
     display: flex;
+    margin-top: 100px;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
   }
 
 .galleryslide-images {
@@ -142,7 +139,43 @@ body {
 }
 
 /* Galeria de slides */
+/* Galeria de menu */
+.hero {
+    height: 50vh;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50vh auto;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
 
+.hero--2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero__img {
+    width: 100%;
+}
+
+[data-animation="fade"]{
+    opacity: 0;
+    transform: translate(100%);
+    transition: 1s ease-in .1s;
+
+    --opacity: 1;
+    --transoform: translate(0);
+}
+
+.unset{
+    opacity: var(--opacity);
+    transform: var(--transform)
+}
+
+/* Galeria de menu */
 /* Botón */
 .menu{
     text-align: center;
@@ -163,3 +196,16 @@ body {
     background-color: #555;
 }
 /* Botón */
+/* Main */
+
+/* Footer */
+.footer {
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+/* Footer */

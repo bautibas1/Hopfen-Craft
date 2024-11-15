@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <script src="main.js"></script>
         <!-- header--> 
     <header class="header">
         <div class="header-logo">
@@ -25,8 +26,8 @@
     </header>
         <!--header-->
     <main class="main">
-        <article>
-            <section class="galleryslide"> <!--Galeria de 3 imagenes en movimiento-->
+        <article> <!--Galeria de 3 imagenes en movimiento-->
+            <section class="galleryslide">
                 <div class="galleryslide-title">
                     <h2>HOPFEN BAR & COFFEE</h2> <!--Animacion de movimiento pendiente-->
                 </div>
@@ -42,14 +43,42 @@
                 </div>
             </section>
         </article>
-        <article hidden>
-            <section class="gallerymenu"> <!--Galeria de 3 imagenes para describir menu (Pendiente)-->
-                <img src="css\imagenes\burga1.png" alt="burga1">
-                <img src="css\imagenes\burga2.png" alt="burga2">
-                <img src="css\imagenes\burga3.png" alt="burga3">
-                <div>
-                    <!--Descripciones para las imagenes (Pendiente)-->
+        <article class="gallerymenu"><!--Galeria de 3 imagenes para describir menu (Pendiente)-->
+            <section class="hero">
+                
+                <div class="hero__text">
+                    <h2 class="hero__title">Titulo</h2>
+                    <p class="hero__description">Descripcion</p>
                 </div>
+
+                <figure class="hero__figure">
+                    <img src="css\imagenes\burga1.png" alt="burga1" class="hero__img" data-animation="fade">
+                </figure>
+
+            </section>
+            <section class="hero hero--2">
+                
+                <div class="hero__text">
+                    <h2 class="hero__title">Titulo</h2>
+                    <p class="hero__description">Descripcion</p>
+                </div>
+
+                <figure class="hero__figure">
+                    <img src="css\imagenes\burga2.png" alt="burga2" class="hero__img" data-animation="fade">
+                </figure>
+                
+            </section>
+            <section class="hero hero--3">
+                
+                <div class="hero__text">
+                    <h2 class="hero__title">Titulo</h2>
+                    <p class="hero__description">Descripcion</p>
+                </div>
+
+                <figure class="hero__figure">
+                    <img src="css\imagenes\burga3.png" alt="burga3" class="hero__img" data-animation="fade">
+                </figure>
+                
             </section>
         </article>
         <section class="menu">
